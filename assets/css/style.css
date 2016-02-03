@@ -182,8 +182,9 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul 	{ margin:0; padding:0; }
-li	{ list-style-type:circle; list-style-position:inside; }
+ul 	{ margin:0; padding:0 0 0 1.1em; }
+li	{ list-style-type:circle; list-style-position: outside;}
+section ul, section ol { margin-bottom: 20px; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
@@ -191,6 +192,13 @@ li	{ list-style-type:circle; list-style-position:inside; }
 b, strong { font-weight: 500;
   color: #1E2025; }
 em, i { font-style: italic; }
+
+code {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", monospace;
+  margin: -1px 0;
+}
 
 #title {
 	display: inline-block;
@@ -399,6 +407,14 @@ Post List
 	top: 1px;
 	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color: #bbb;
+}
+
+#post-list li.year {
+  text-align: center;
+}
+
+#post-list li.year h2 {
+  max-width: 100%;
 }
 
 #post-list-footer {

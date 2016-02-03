@@ -2,24 +2,26 @@ name: Your New Jekyll Site
 description: Blogging about stuffs
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-aboutPage: true
+contactPage: true
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 
-paginate: 20
 baseurl: /
 domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+
+paginate: 9999 # lower this number if you desire front-page pagination
+paginate_path: "/blog/page/:num/"
+gems: [ jekyll-paginate ]
 
 # Details for the RSS feed generator
 url:            'http://your-blog-url.example.com'
 author:         'Your Name'
 authorTwitter:  'YourTwitterUsername'
 
-permalink:       /:year/:title/
+permalink:       /blog/:year/:month/:title/
+
+exclude: [ README.md, COPYING ]
 
 defaults:
     -

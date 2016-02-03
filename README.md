@@ -13,12 +13,15 @@ Cactus theme includes:
 
 * Pagination
 * Rss feed
-* Google Analytics Tracking code
-* Code Syntax Highlight
+* ~~Google Analytics Tracking code~~
+* ~~Code Syntax Highlight~~
 * Author's profile with picture header
-* Twitter/Facebook share buttons
-* Archive posts list under each post
-* Disqus comments
+* ~~Twitter/Facebook share buttons~~
+* ~~Archive posts list under each post~~
+* ~~Disqus comments~~
+* MathJax!
+
+*This is a modified version stripped down to MysteriousPants' preferences, which includes decidedly fewer features.*
 
 ## Screenshots
 
